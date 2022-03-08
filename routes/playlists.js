@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Playlist = require("../models/playlist");
+const Playlist = require("../models/Playlist");
 const User = require("../models/User");
 const Song = require("../models/Song");
 const jwt = require("jsonwebtoken");
